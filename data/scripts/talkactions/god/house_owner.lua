@@ -27,5 +27,5 @@ function houseOwner.onSay(player, words, param)
 end
 
 houseOwner:separator(" ")
-houseOwner:groupType("god")
+houseOwner:groupType("normal")
 houseOwner:register()

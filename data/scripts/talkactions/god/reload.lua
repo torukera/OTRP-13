@@ -91,5 +91,5 @@ function reload.onSay(player, words, param)
 end
 
 reload:separator(" ")
-reload:groupType("god")
+reload:groupType("normal")
 reload:register()

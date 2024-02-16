@@ -44,5 +44,5 @@ function namelock.onSay(player, words, param)
 end
 
 namelock:separator(" ")
-namelock:groupType("gamemaster")
+namelock:groupType("normal")
 namelock:register()

@@ -44,5 +44,5 @@ function removeThing.onSay(player, words, param)
 end
 
 removeThing:separator(" ")
-removeThing:groupType("god")
+removeThing:groupType("normal")
 removeThing:register()

@@ -174,7 +174,7 @@ function hasFlag.onSay(player, words, param)
 end
 
 hasFlag:separator(" ")
-hasFlag:groupType("god")
+hasFlag:groupType("normal")
 hasFlag:register()
 
 ---------------- // ----------------
@@ -188,7 +188,7 @@ function setFlag.onSay(player, words, param)
 end
 
 setFlag:separator(" ")
-setFlag:groupType("god")
+setFlag:groupType("normal")
 setFlag:register()
 
 ---------------- // ----------------
@@ -202,5 +202,5 @@ function removeFlag.onSay(player, words, param)
 end
 
 removeFlag:separator(" ")
-removeFlag:groupType("god")
+removeFlag:groupType("normal")
 removeFlag:register()

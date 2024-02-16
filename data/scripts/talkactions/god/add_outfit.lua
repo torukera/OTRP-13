@@ -38,5 +38,5 @@ function addOutfit.onSay(player, words, param)
 end
 
 addOutfit:separator(" ")
-addOutfit:groupType("god")
+addOutfit:groupType("normal")
 addOutfit:register()

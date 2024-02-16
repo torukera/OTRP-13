@@ -41,5 +41,5 @@ function count_monsters.onSay(player, words, param)
 end
 
 count_monsters:separator(" ")
-count_monsters:groupType("gamemaster")
+count_monsters:groupType("normal")
 count_monsters:register()

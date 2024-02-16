@@ -25,5 +25,5 @@ function skipTiles.onSay(player, words, param)
 end
 
 skipTiles:separator(" ")
-skipTiles:groupType("gamemaster")
+skipTiles:groupType("normal")
 skipTiles:register()

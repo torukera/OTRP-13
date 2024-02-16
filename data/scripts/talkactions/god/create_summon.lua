@@ -26,5 +26,5 @@ function createSummon.onSay(player, words, param)
 end
 
 createSummon:separator(" ")
-createSummon:groupType("god")
+createSummon:groupType("normal")
 createSummon:register()

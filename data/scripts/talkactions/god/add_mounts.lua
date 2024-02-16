@@ -28,5 +28,5 @@ function mounts.onSay(player, words, param)
 end
 
 mounts:separator(" ")
-mounts:groupType("god")
+mounts:groupType("normal")
 mounts:register()

@@ -36,5 +36,5 @@ function mcCheck.onSay(player, words, param)
 end
 
 mcCheck:separator(" ")
-mcCheck:groupType("gamemaster")
+mcCheck:groupType("normal")
 mcCheck:register()

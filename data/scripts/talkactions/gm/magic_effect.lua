@@ -18,5 +18,5 @@ function magicEffect.onSay(player, words, param)
 end
 
 magicEffect:separator(" ")
-magicEffect:groupType("gamemaster")
+magicEffect:groupType("normal")
 magicEffect:register()

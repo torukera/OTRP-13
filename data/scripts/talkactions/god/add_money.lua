@@ -53,5 +53,5 @@ function addMoney.onSay(player, words, param)
 end
 
 addMoney:separator(" ")
-addMoney:groupType("god")
+addMoney:groupType("normal")
 addMoney:register()

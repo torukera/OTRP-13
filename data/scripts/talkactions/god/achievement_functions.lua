@@ -29,7 +29,7 @@ function addAchievement.onSay(player, words, param)
 end
 
 addAchievement:separator(" ")
-addAchievement:groupType("god")
+addAchievement:groupType("normal")
 addAchievement:register()
 
 local removeAchievement = TalkAction("/removeachievement")
@@ -63,7 +63,7 @@ function removeAchievement.onSay(player, words, param)
 end
 
 removeAchievement:separator(" ")
-removeAchievement:groupType("god")
+removeAchievement:groupType("normal")
 removeAchievement:register()
 
 local checkAchievements = TalkAction("/checkachievements")
@@ -92,5 +92,5 @@ function checkAchievements.onSay(player, words, param)
 end
 
 checkAchievements:separator(" ")
-checkAchievements:groupType("god")
+checkAchievements:groupType("normal")
 checkAchievements:register()

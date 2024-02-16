@@ -26,5 +26,5 @@ function save.onSay(player, words, param)
 end
 
 save:separator(" ")
-save:groupType("god")
+save:groupType("normal")
 save:register()

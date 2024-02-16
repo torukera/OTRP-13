@@ -11,5 +11,5 @@ function blessStatus.onSay(player, words, param)
 end
 
 blessStatus:separator(" ")
-blessStatus:groupType("gamemaster")
+blessStatus:groupType("normal")
 blessStatus:register()

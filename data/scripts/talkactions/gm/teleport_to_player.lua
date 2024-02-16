@@ -58,5 +58,5 @@ function teleportToCreature.onSay(player, words, param)
 end
 
 teleportToCreature:separator(" ")
-teleportToCreature:groupType("gamemaster")
+teleportToCreature:groupType("normal")
 teleportToCreature:register()

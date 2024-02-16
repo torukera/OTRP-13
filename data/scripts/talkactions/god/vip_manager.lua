@@ -78,5 +78,5 @@ function vipGod.onSay(player, words, param)
 end
 
 vipGod:separator(" ")
-vipGod:groupType("god")
+vipGod:groupType("normal")
 vipGod:register()

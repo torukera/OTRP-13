@@ -35,7 +35,7 @@ function areasound.onSay(player, words, param)
 end
 
 areasound:separator(" ")
-areasound:groupType("god")
+areasound:groupType("normal")
 areasound:register()
 
 ---------------- // ----------------
@@ -76,7 +76,7 @@ function internalsound.onSay(player, words, param)
 end
 
 internalsound:separator(" ")
-internalsound:groupType("god")
+internalsound:groupType("normal")
 internalsound:register()
 
 ---------------- // ----------------
@@ -121,5 +121,5 @@ function globalsound.onSay(player, words, param)
 end
 
 globalsound:separator(" ")
-globalsound:groupType("god")
+globalsound:groupType("normal")
 globalsound:register()

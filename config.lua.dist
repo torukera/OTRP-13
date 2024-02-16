@@ -158,8 +158,8 @@ bestiaryKillMultiplier = 5
 bosstiaryKillMultiplier = 5
 bestiaryRateCharmShopPrice  = 1.0
 boostedBossSlot = true
-boostedBossLootBonus = 250
-boostedBossKillBonus = 3
+boostedBossLootBonus = 500
+boostedBossKillBonus = 5
 
 -- Hazard system
 toogleHazardSystem = true

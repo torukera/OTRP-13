@@ -19,5 +19,5 @@ function teleportToTown.onSay(player, words, param)
 end
 
 teleportToTown:separator(" ")
-teleportToTown:groupType("gamemaster")
+teleportToTown:groupType("normal")
 teleportToTown:register()

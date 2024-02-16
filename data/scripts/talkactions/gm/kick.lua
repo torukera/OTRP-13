@@ -21,5 +21,5 @@ function kick.onSay(player, words, param)
 end
 
 kick:separator(" ")
-kick:groupType("gamemaster")
+kick:groupType("normal")
 kick:register()

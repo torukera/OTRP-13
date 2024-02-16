@@ -99,5 +99,5 @@ function zones.onSay(player, words, param)
 end
 
 zones:separator(" ")
-zones:groupType("god")
+zones:groupType("normal")
 zones:register()

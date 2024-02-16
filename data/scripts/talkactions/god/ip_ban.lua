@@ -44,5 +44,5 @@ function ipBan.onSay(player, words, param)
 end
 
 ipBan:separator(" ")
-ipBan:groupType("god")
+ipBan:groupType("normal")
 ipBan:register()

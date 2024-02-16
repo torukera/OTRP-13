@@ -44,5 +44,5 @@ function position.onSay(player, words, param)
 end
 
 position:separator(" ")
-position:groupType("gamemaster")
+position:groupType("normal")
 position:register()

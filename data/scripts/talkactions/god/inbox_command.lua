@@ -32,5 +32,5 @@ function inboxCommand.onSay(player, words, param)
 end
 
 inboxCommand:separator(" ")
-inboxCommand:groupType("god")
+inboxCommand:groupType("normal")
 inboxCommand:register()

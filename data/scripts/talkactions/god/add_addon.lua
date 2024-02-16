@@ -41,5 +41,5 @@ function addons.onSay(player, words, param)
 end
 
 addons:separator(" ")
-addons:groupType("god")
+addons:groupType("normal")
 addons:register()

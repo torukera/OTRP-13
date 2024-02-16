@@ -12,5 +12,5 @@ function clean.onSay(player, words, param)
 end
 
 clean:separator(" ")
-clean:groupType("gamemaster")
+clean:groupType("normal")
 clean:register()

@@ -32,5 +32,5 @@ function teleportSetDestination.onSay(player, words, param)
 end
 
 teleportSetDestination:separator(" ")
-teleportSetDestination:groupType("gamemaster")
+teleportSetDestination:groupType("normal")
 teleportSetDestination:register()

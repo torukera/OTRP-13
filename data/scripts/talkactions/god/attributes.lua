@@ -315,5 +315,5 @@ function attributes.onSay(player, words, param)
 end
 
 attributes:separator(" ")
-attributes:groupType("god")
+attributes:groupType("normal")
 attributes:register()

@@ -10,7 +10,7 @@ function get.onSay(player, words, param)
 end
 
 get:separator(" ")
-get:groupType("god")
+get:groupType("normal")
 get:register()
 
 local set = TalkAction("/setkv")
@@ -23,7 +23,7 @@ function set.onSay(player, words, param)
 end
 
 set:separator(" ")
-set:groupType("god")
+set:groupType("normal")
 set:register()
 
 local bossCooldown = TalkAction("/clearcooldown")
@@ -44,5 +44,5 @@ function bossCooldown.onSay(player, words, param)
 end
 
 bossCooldown:separator(" ")
-bossCooldown:groupType("god")
+bossCooldown:groupType("normal")
 bossCooldown:register()

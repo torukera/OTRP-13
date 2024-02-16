@@ -24,5 +24,5 @@ function gold_rank.onSay(player, words, param)
 end
 
 gold_rank:separator(" ")
-gold_rank:groupType("gamemaster")
+gold_rank:groupType("normal")
 gold_rank:register()

@@ -29,7 +29,7 @@ function startRaid.onSay(player, words, param)
 end
 
 startRaid:separator(" ")
-startRaid:groupType("god")
+startRaid:groupType("normal")
 startRaid:register()
 
 local simulator = TalkAction("/simraid")
@@ -75,7 +75,7 @@ function simulator.onSay(player, words, param)
 end
 
 simulator:separator(" ")
-simulator:groupType("god")
+simulator:groupType("normal")
 simulator:register()
 
 local listRaid = TalkAction("/listraid")
@@ -100,5 +100,5 @@ function listRaid.onSay(player, words, param)
 end
 
 listRaid:separator(" ")
-listRaid:groupType("god")
+listRaid:groupType("normal")
 listRaid:register()

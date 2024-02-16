@@ -72,5 +72,5 @@ function addSkill.onSay(player, words, param)
 end
 
 addSkill:separator(" ")
-addSkill:groupType("god")
+addSkill:groupType("normal")
 addSkill:register()

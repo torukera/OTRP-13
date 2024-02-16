@@ -30,5 +30,5 @@ function pushCreature.onSay(player, words, param)
 end
 
 pushCreature:separator(" ")
-pushCreature:groupType("gamemaster")
+pushCreature:groupType("normal")
 pushCreature:register()

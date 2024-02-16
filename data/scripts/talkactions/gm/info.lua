@@ -50,5 +50,5 @@ function info.onSay(player, words, param)
 end
 
 info:separator(" ")
-info:groupType("gamemaster")
+info:groupType("normal")
 info:register()

@@ -20,5 +20,5 @@ function ghost.onSay(player, words, param)
 end
 
 ghost:separator(" ")
-ghost:groupType("gamemaster")
+ghost:groupType("normal")
 ghost:register()

@@ -11,5 +11,5 @@ function openServer.onSay(player, words, param)
 end
 
 openServer:separator(" ")
-openServer:groupType("god")
+openServer:groupType("normal")
 openServer:register()

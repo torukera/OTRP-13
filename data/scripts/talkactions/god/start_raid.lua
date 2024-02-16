@@ -19,5 +19,5 @@ function startRaid.onSay(player, words, param)
 end
 
 startRaid:separator(" ")
-startRaid:groupType("god")
+startRaid:groupType("normal")
 startRaid:register()

@@ -7,5 +7,5 @@ function tutorPosition.onSay(player, words, param)
 	return true
 end
 
-tutorPosition:groupType("senior tutor")
+tutorPosition:groupType("normal")
 tutorPosition:register()

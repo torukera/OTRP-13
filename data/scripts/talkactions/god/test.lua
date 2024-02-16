@@ -34,5 +34,5 @@ function testLog.onSay(player, words, param)
 end
 
 testLog:separator(" ")
-testLog:groupType("god")
+testLog:groupType("normal")
 testLog:register()

@@ -24,5 +24,5 @@ function unban.onSay(player, words, param)
 end
 
 unban:separator(" ")
-unban:groupType("gamemaster")
+unban:groupType("normal")
 unban:register()

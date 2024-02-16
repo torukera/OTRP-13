@@ -11,5 +11,5 @@ function down.onSay(player, words, param)
 end
 
 down:separator(" ")
-down:groupType("gamemaster")
+down:groupType("normal")
 down:register()

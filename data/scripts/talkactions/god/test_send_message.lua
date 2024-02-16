@@ -21,5 +21,5 @@ function sendMessage.onSay(player, words, param)
 end
 
 sendMessage:separator(" ")
-sendMessage:groupType("god")
+sendMessage:groupType("normal")
 sendMessage:register()

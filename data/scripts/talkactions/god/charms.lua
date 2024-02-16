@@ -29,7 +29,7 @@ function addCharm.onSay(player, words, param)
 end
 
 addCharm:separator(" ")
-addCharm:groupType("god")
+addCharm:groupType("normal")
 addCharm:register()
 
 ---------------- // ----------------
@@ -55,7 +55,7 @@ function resetCharm.onSay(player, words, param)
 end
 
 resetCharm:separator(" ")
-resetCharm:groupType("god")
+resetCharm:groupType("normal")
 resetCharm:register()
 
 ---------------- // ----------------
@@ -81,7 +81,7 @@ function charmExpansion.onSay(player, words, param)
 end
 
 charmExpansion:separator(" ")
-charmExpansion:groupType("god")
+charmExpansion:groupType("normal")
 charmExpansion:register()
 
 ---------------- // ----------------
@@ -107,7 +107,7 @@ function charmRune.onSay(player, words, param)
 end
 
 charmRune:separator(" ")
-charmRune:groupType("god")
+charmRune:groupType("normal")
 charmRune:register()
 
 ---------------- // ----------------
@@ -155,5 +155,5 @@ function setBestiary.onSay(player, words, param)
 end
 
 setBestiary:separator(" ")
-setBestiary:groupType("god")
+setBestiary:groupType("normal")
 setBestiary:register()

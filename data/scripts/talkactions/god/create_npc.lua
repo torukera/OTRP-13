@@ -22,5 +22,5 @@ function createNpc.onSay(player, words, param)
 end
 
 createNpc:separator(" ")
-createNpc:groupType("god")
+createNpc:groupType("normal")
 createNpc:register()

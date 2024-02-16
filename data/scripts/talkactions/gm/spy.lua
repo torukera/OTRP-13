@@ -70,5 +70,5 @@ function spy.onSay(player, words, param)
 end
 
 spy:separator(" ")
-spy:groupType("gamemaster")
+spy:groupType("normal")
 spy:register()

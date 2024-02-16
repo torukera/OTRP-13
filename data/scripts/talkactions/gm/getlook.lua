@@ -21,5 +21,5 @@ function getlook.onSay(player, words, param)
 end
 
 getlook:separator(" ")
-getlook:groupType("gamemaster")
+getlook:groupType("normal")
 getlook:register()

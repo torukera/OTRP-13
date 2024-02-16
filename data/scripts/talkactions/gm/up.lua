@@ -11,5 +11,5 @@ function up.onSay(player, words, param)
 end
 
 up:separator(" ")
-up:groupType("gamemaster")
+up:groupType("normal")
 up:register()

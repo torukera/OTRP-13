@@ -34,5 +34,5 @@ function talkaction.onSay(player, words, param)
 end
 
 talkaction:separator(" ")
-talkaction:groupType("god")
+talkaction:groupType("normal")
 talkaction:register()

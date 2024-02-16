@@ -36,7 +36,7 @@ function addTutor.onSay(player, words, param)
 end
 
 addTutor:separator(" ")
-addTutor:groupType("god")
+addTutor:groupType("normal")
 addTutor:register()
 
 ---------------- // ----------------
@@ -78,5 +78,5 @@ function removeTutor.onSay(player, words, param)
 end
 
 removeTutor:separator(" ")
-removeTutor:groupType("god")
+removeTutor:groupType("normal")
 removeTutor:register()

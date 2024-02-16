@@ -46,5 +46,5 @@ function ban.onSay(player, words, param)
 end
 
 ban:separator(" ")
-ban:groupType("gamemaster")
+ban:groupType("normal")
 ban:register()

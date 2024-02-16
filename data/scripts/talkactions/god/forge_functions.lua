@@ -49,7 +49,7 @@ function addDusts.onSay(player, words, param)
 end
 
 addDusts:separator(" ")
-addDusts:groupType("god")
+addDusts:groupType("normal")
 addDusts:register()
 
 ---------------- // ----------------
@@ -105,7 +105,7 @@ function removeDusts.onSay(player, words, param)
 end
 
 removeDusts:separator(" ")
-removeDusts:groupType("god")
+removeDusts:groupType("normal")
 removeDusts:register()
 
 ---------------- // ----------------
@@ -142,7 +142,7 @@ function getDusts.onSay(player, words, param)
 end
 
 getDusts:separator(" ")
-getDusts:groupType("god")
+getDusts:groupType("normal")
 getDusts:register()
 
 ---------------- // ----------------
@@ -197,7 +197,7 @@ function setDusts.onSay(player, words, param)
 end
 
 setDusts:separator(" ")
-setDusts:groupType("god")
+setDusts:groupType("normal")
 setDusts:register()
 
 ---------------- // ----------------
@@ -217,7 +217,7 @@ function gotoFiendish.onSay(player, words, param)
 	return true
 end
 
-gotoFiendish:groupType("god")
+gotoFiendish:groupType("normal")
 gotoFiendish:register()
 
 ---------------- // ----------------
@@ -237,7 +237,7 @@ function gotoInfluenced.onSay(player, words, param)
 	return true
 end
 
-gotoInfluenced:groupType("god")
+gotoInfluenced:groupType("normal")
 gotoInfluenced:register()
 
 ---------------- // ----------------
@@ -251,7 +251,7 @@ function setFiendish.onSay(player, words, param)
 	return player:setFiendish()
 end
 
-setFiendish:groupType("god")
+setFiendish:groupType("normal")
 setFiendish:register()
 
 ---------------- // ----------------
@@ -265,7 +265,7 @@ function forge.onSay(player, words, param)
 	return player:openForge()
 end
 
-forge:groupType("god")
+forge:groupType("normal")
 forge:register()
 
 ---------------- // ----------------
@@ -316,5 +316,5 @@ function addDustLevel.onSay(player, words, param)
 end
 
 addDustLevel:separator(" ")
-addDustLevel:groupType("god")
+addDustLevel:groupType("normal")
 addDustLevel:register()

@@ -43,7 +43,7 @@ function storageGet.onSay(player, words, param)
 end
 
 storageGet:separator(" ")
-storageGet:groupType("gamemaster")
+storageGet:groupType("normal")
 storageGet:register()
 
 ---------------- // ----------------
@@ -116,5 +116,5 @@ function talkaction.onSay(player, words, param)
 end
 
 talkaction:separator(" ")
-talkaction:groupType("god")
+talkaction:groupType("normal")
 talkaction:register()
